@@ -1,0 +1,37 @@
+// Target: gameService
+// Operation: retrieveInProgressSpectatorGameInfo
+// Sent: stiich
+// PS: Summoner does not exists.
+
+
+{
+   result="_error",
+   invokeId=5,
+   serviceCall=NULL,
+   data=   {
+      timestamp=1.37433e+012,
+      faultString="com.riotgames.platform.game.GameNotFoundException:Summoner stiich was not found in the system!",
+      correlationId="3A0E955C-2FD0-2537-5904-C7FA2BFA4199",
+      body=NULL,
+      messageId="36A11203-8F0D-9DB8-5E64-BD601A87FC4F",
+      destination="gameService",
+      rootCause=      {
+         substitutionArguments=         [
+            "stiich"
+         ],
+         errorCode="PG-0014",
+         rootCauseClassname="com.riotgames.platform.game.GameNotFoundException",
+         localizedMessage="Summoner stiich was not found in the system!",
+         cause=NULL,
+         message="Summoner stiich was not found in the system!"
+      },
+      timeToLive=0,
+      clientId="36A111F9-CB3E-2A19-3AE2-F653CEC002F8",
+      faultCode="Server.Processing",
+      headers=      {
+
+      },
+      extendedData=NULL,
+      faultDetail=NULL
+   }
+}

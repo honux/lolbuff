@@ -1,0 +1,25 @@
+// Target: summonerService
+// Operation: getSummonerByName
+// Sent: Honux
+// PS: -
+
+{
+   result="_result",
+   invokeId=5,
+   serviceCall=NULL,
+   data=   {
+      body=      {
+         summonerLevel=30,
+         acctId=366029,
+         summonerId=401129,
+         futureData=NULL,
+         revisionDate=1.37431e+012,
+         profileIconId=549,
+         name="Honux",
+         internalName="honux",
+         revisionId=0,
+         dataVersion=0
+      },
+      timeStamp=1.37433e+012
+   }
+}

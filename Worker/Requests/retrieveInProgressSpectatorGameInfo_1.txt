@@ -1,0 +1,36 @@
+// Target: gameService
+// Operation: retrieveInProgressSpectatorGameInfo
+// Sent: sherrywalken
+// PS: The summoner on queue.
+
+{
+   result="_error",
+   invokeId=5,
+   serviceCall=NULL,
+   data=   {
+      timestamp=1.37433e+012,
+      faultString="com.riotgames.platform.game.GameObserverModeNotEnabledException:Game has not started",
+      correlationId="3A0E955C-2FD0-2537-5904-C7FA2BFA4199",
+      body=NULL,
+      messageId="369CB516-F109-C956-28CC-DF986EC8877F",
+      destination="gameService",
+      rootCause=      {
+         substitutionArguments=         [
+
+         ],
+         errorCode="PG-0036",
+         rootCauseClassname="com.riotgames.platform.game.GameObserverModeNotEnabledException",
+         localizedMessage="Game has not started",
+         cause=NULL,
+         message="Game has not started"
+      },
+      timeToLive=0,
+      clientId="369CB50F-9E59-A1C8-8658-A44F0C209165",
+      faultCode="Server.Processing",
+      headers=      {
+
+      },
+      extendedData=NULL,
+      faultDetail=NULL
+   }
+}

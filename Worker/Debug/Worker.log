@@ -1,0 +1,25 @@
+﻿Build started 17/03/2015 16:02:18.
+     1>Project "E:\Projetos\lolbuff\Worker\Worker.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D CODE_ANALYSIS /D _WIN32_WINNT=0x0501 /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt -D_SCL_SECURE_NO_WARNINGS   /analyze:quiet Source\amf0.cpp Source\amf3.cpp Source\client.cpp Source\hashfunctions.cpp Source\main.cpp Source\memorystream.cpp Source\message.cpp
+         message.cpp
+         memorystream.cpp
+         main.cpp
+     1>d:\boost_1_56_0\boost\asio\detail\impl\socket_ops.ipp(1363): error C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(3457) : see declaration of 'WSASocketA'
+     1>e:\projetos\lolbuff\worker\source\ssl_socket.h(66): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\projetos\lolbuff\worker\source\main.cpp(86): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         hashfunctions.cpp
+         client.cpp
+     1>d:\boost_1_56_0\boost\asio\detail\impl\socket_ops.ipp(1363): error C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(3457) : see declaration of 'WSASocketA'
+     1>e:\projetos\lolbuff\worker\source\ssl_socket.h(66): warning C4018: '<' : signed/unsigned mismatch
+         amf3.cpp
+         amf0.cpp
+         Running Code Analysis for C/C++...
+         Generating Code...
+     1>Done Building Project "E:\Projetos\lolbuff\Worker\Worker.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:23.50

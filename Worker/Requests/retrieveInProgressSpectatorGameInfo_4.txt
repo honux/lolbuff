@@ -1,0 +1,36 @@
+// Target: gameService
+// Operation: retrieveInProgressSpectatorGameInfo
+// Sent: Stiitch
+// PS: The summoner was not in game.
+
+{
+   result="_error",
+   invokeId=5,
+   serviceCall=NULL,
+   data=   {
+      timestamp=1.37433e+012,
+      faultString="com.riotgames.platform.game.GameNotFoundException:No Game for player 420727 was found in the system!",
+      correlationId="3A0E955C-2FD0-2537-5904-C7FA2BFA4199",
+      body=NULL,
+      messageId="36A47A52-1B09-F08A-62EB-6B72CDD9C7E8",
+      destination="gameService",
+      rootCause=      {
+         substitutionArguments=         [
+            "420727"
+         ],
+         errorCode="PG-0014",
+         rootCauseClassname="com.riotgames.platform.game.GameNotFoundException",
+         localizedMessage="No Game for player 420727 was found in the system!",
+         cause=NULL,
+         message="No Game for player 420727 was found in the system!"
+      },
+      timeToLive=0,
+      clientId="36A47A48-573D-F977-4274-D1CA561AEE1D",
+      faultCode="Server.Processing",
+      headers=      {
+
+      },
+      extendedData=NULL,
+      faultDetail=NULL
+   }
+}
